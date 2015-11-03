@@ -1,0 +1,19 @@
+# These are some sample commands using awk 
+
+ awk '{print}' 01-sample-awk
+ awk '/test/' 01-sample-awk
+ awk '/^test/' 01-sample-awk
+ awk '/UUID/' 01-sample-awk
+ awk '/^UUID/' 01-sample-awk
+ awk '/^UUID/' 01-sample-awk
+ awk '/^UUID/ {print $1;}' 01-sample-awk
+ awk '/^UUID/ {print $0;}' 01-sample-awk
+ awk '/sa/' 02-sample-awk
+ awk '$2 ~/sa/' 02-sample-awk
+ awk '$2 ~/^sa/' 02-sample-awk
+ awk '$2 !~ /^sa/' 02-sample-awk
+ awk '$2 ~/^sa/' 02-sample-awk
+ awk '$2 !~ /^sa/' 02-sample-awk
+ awk '$2 !~ /^sa/ && &1 , 5' 02-sample-awk
+ awk '$2 !~ /^sa/ && &1 < 5' 02-sample-awk
+ awk '$2 !~ /^sa/ && $1 < 5' 02-sample-awk

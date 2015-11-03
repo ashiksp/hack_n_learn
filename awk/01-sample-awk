@@ -1,0 +1,13 @@
+This is just a test file.
+The 'awk' command can be used as simple 'cat' command to print file content.
+
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# 
+proc            /proc           proc    nodev,noexec,nosuid 0       0
+# / was on /dev/vda1 during installation
+UUID=b96601ba-7d51-4c5f-bfe2-63815708aabd /               ext4
