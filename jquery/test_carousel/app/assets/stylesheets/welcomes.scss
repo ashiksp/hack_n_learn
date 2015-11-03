@@ -1,0 +1,26 @@
+// Place all the styles related to the Welcomes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  background-color: #E3E3E3;
+}
+
+#carousel {
+  background-color: #B8C5EF;
+  width: 350px;
+  height: 350px;
+}
+
+#carousel h3, h4 {
+  font-family: 'Times New Roman';
+  border-padding: 5px;
+}
+
+#carousel h3 {
+  font-size: 30px;
+}
+
+#carousel h4 {
+  font-size: 20px;
+}

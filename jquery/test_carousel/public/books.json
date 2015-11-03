@@ -1,0 +1,39 @@
+{
+  "books": [
+    {
+      "name": "Python Game Development for Beginners",
+      "author": "Elliott Hauser",
+      "description": "In this Python Game Development for Beginners training course, expert author Elliot Hauser will teach you how to build your own game sketches using Python's built-in turtle module. This course is designed for the absolute beginner, meaning no Python or game development experience is required."
+    },
+    {
+      "name": "Fluent Python",
+      "author": "Luciano Ramalho",
+      "description": "Python’s simplicity lets you become productive quickly, but this often means you aren’t using everything it has to offer. With this hands-on guide, you’ll learn how to write effective, idiomatic Python code by leveraging its best—and possibly most neglected—features. Author Luciano Ramalho takes you through Python’s core language features and libraries, and shows you how to make your code shorter, faster, and more readable at the same time."
+    },
+    {
+      "name": "Introduction to JavaScript Object Notation",
+      "author": "Lindsay Bassett",
+      "description": "What is JavaScript Object Notation (JSON) and how can you put it to work? This concise guide helps busy IT professionals get up and running quickly with this popular data interchange format, and provides a deep understanding of how JSON works. Author Lindsay Bassett begins with an overview of JSON syntax, data types, formatting, and security concerns before exploring the many ways you can apply JSON today."
+    },
+    {
+      "name": "Mastering JIRA",
+      "author": "Ravi Sagar",
+      "description": "JIRA is an issue-tracking tool from Atlassian and has gained immense popularity in recent years due to its ease of use and, at the same time, its customization abilities and finely grained control over various functions. JIRA offers functionalities for creating tasks and assigning them to users and many useful add-ons can be added such as JIRA Agile for Agile tracking and Groovy scripts, a powerful tool for administering customizations for customizations."
+    },
+    {
+      "name": "Learning Android",
+      "author": "Ken Kousen",
+      "description": "Ready to launch your dream app on Android? In this video course, Java consultant Ken Kousen walks you through the Android Studio wizard for creating new applications. You’ll learn the basics in developing for Android devices, and where to find the tools and technologies you need. The Android Developer website offers dashboards, version numbers, and market distributions. You’ll also find design guidelines, a review of available tutorials, and API docs."
+    },
+    {
+      "name": "Think Agile",
+      "author": "Taffy Williams",
+      "description": "Funding falls apart. A similar product is unveiled by a more established company. A key employee jumps ship to work for a competitor. These are the unexpected obstacles that derail even the most promising new ventures. Entrepreneurs determined to keep up with today’s constantly changing business environment need to stay nimble enough to shift their strategies, products, and services on a dime. Yet many fail to master this essential new mindset: agility."
+    },
+    {
+      "name": "Mastering Gradle",
+      "author": "Mainak Mitra",
+      "description": "With Gradle, you can efficiently build automation framework along with some flexible alternatives to customized build logic. This book starts with sound basics about build automation and how Gradle fits into this automation. It then moves on to give you a good exposure on Groovy?a scripting language used to write Gradle?and helps you understand a key elements of Groovy programming language. In the following chapters, you will deal with task management and learn how to integrate Ant tasks into build scripts. Furthermore, you will learn dependency management, plugin management, and its configuration techniques in Gradle. You will also get hands-on with building and testing projects using Gradle. You will then begin to cover diverse topics, such as Continuous Integration with Jenkins and TeamCity, Migration strategies, and Deployment, which enables you to learn concepts useful for Agile software development. Finally, you will also learn how to create a simple mobile application using Android and explore how Gradle can help you to build and test the application."
+    }
+  ]
+}
