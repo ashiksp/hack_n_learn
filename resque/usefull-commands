@@ -1,0 +1,16 @@
+# Kill stalled processes
+  Resque.workers.each { |w| w.unregister_worker }
+
+# Console
+  queue_name = "actual_name_of_queue"
+  Resque.redis.del "queue:#{queue_name}"
+
+# Prune Dead Workers
+  Resque.workers # To get list of current running workers
+  Resque.workers.first.prune_dead_workers
+
+# Remove resque worker
+  Resque.remove_worker(Resque.workers[n])
+
+# New Resque syntax
+  Resque::WorkerRegistry.working.each { |work| Resque::WorkerRegistry.remove(work.id) }
