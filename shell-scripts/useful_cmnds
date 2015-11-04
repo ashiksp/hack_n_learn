@@ -1,0 +1,25 @@
+# file manipulation
+
+# copy
+# copy all the html files to destination,  but only copy files that didn't
+# exist in the destination directory or were newer than the version in destination.
+cmd: cp -u *.html destination
+
+# wild cards
+# * -> matches any character
+# ? -> matches any single character
+# [characters] -> matches any character that is the member of set characters
+# [!characters] -> matches any character that is not a member of set characters
+#   [:alnum:] -> Alpha numeric
+#   [:alpha:] -> Alphabetic
+#   [:digit:] -> Numerals
+#   [:upper:] -> UPPERCASE
+#   [:lower:] -> lowercase
+
+# Commands
+1. [ pwd, cd, ls ]
+2. [ ls, less, file ]
+3. [ cp, mv, rm, mkdir ]
+4. [ type, which, help, man]
+
+Input/Output redirection

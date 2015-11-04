@@ -1,0 +1,13 @@
+#! /bin/bash
+
+# Try to run this file as 'bash file_name'
+
+pwd
+ls 
+
+echo "Setting two variables..."
+COLOR="black"
+VALUE1=20
+VALUE2=30
+echo "This is a string : $COLOR"
+echo "The value assigned is : $VALUE1"

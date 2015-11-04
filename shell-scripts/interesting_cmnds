@@ -1,0 +1,27 @@
+# Bash begginners guide
+
+# Shell types { sh, bash, csh, tcsh, ksh }.
+
+The file "/etc/shells" gives an overview of known shells on a Linux system.
+Your default shell is set in the "/etc/passwd" file.
+
+# buit-in commands
+Bourne SHell
+{ :, ., break, cd, continue, eval, exec, exit, export, getopts, hash, pwd, readonly,
+return, set, shift, test, [, times, trap, umask, unset }
+
+Bash
+{ alias, bind, builtin, command, declare, echo, enable, help, let, local, logout, printf,
+read, shopt, type, typeset, ulimit, unalias }
+
+# Shell Commands
+-> touch file1 file2
+-> ls | more
+-> declare ( shell parameters )
+
+# Debug the shell script
+set -x                  # activate debugging from here
+w
+set +x                  # stop debugging from here
+
+
